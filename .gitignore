@@ -1,0 +1,12 @@
+# 로컬 실행 설정 (PC 경로 포함)
+.claude/
+
+# 검수 원고·리포트는 공개 저장소에 올리지 않음 (샘플 blog_01만 예외)
+medical_checker/input/*
+!medical_checker/input/blog_01.txt
+medical_checker/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
